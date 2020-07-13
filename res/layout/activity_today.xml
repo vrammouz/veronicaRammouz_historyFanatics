@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TodayActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        style="@style/LogoHeaderLayout">
+        <ImageView
+            android:id="@+id/image_logo"
+            style="@style/LogoHeader"/>
+        <TextView
+            style="@style/PageTitle"
+            android:text="@string/today_text"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/title_extension"
+        style="@style/LogoExtension"
+        android:layout_below="@+id/logo"/>
+    <ScrollView
+        android:id="@+id/event_today"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_extension"
+        android:layout_marginTop="16dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_layout">
+
+            <TextView
+                android:id="@+id/event_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                tools:text="hey"/>
+            <TextView
+                android:id="@+id/event_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                tools:text="hi"/>
+            <TextView
+                android:id="@+id/event_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                tools:text="hello"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

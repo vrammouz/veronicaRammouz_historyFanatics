@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">History Fanatics</string>
+    <string name="button1_main">Today in History</string>
+    <string name="button2_main">Stories in History</string>
+    <string name="button3_main">Shows on History Channel</string>
+    <string name="button4_main">Settings</string>
+    <string name="about">This app aims to serve all History fanatics. Its sole purpose is to promote education, culture and inspire individual awakening. It is tailor-made for those who wish to organize their knowledge for more in-depth history learning. Also, we intend to promote education through television, which is why we recommend users to watch series on History channel, as some enjoy learning this way.</string>
+    <string name="terms">Terms and conditions do in fact, apply.</string>
+    <string name="title_extension">Fanatics</string>
+    <string name="today_text">On This Day</string>
+    <string name="shows_text">Shows on History Channel</string>
+    <string name="events">Stories in History</string>
+    <string name="random_story">random story</string>
+    <string name="saved_stories">Saved Stories</string>
+    <string name="watch_list">Watch List</string>
+    <string name="about_title">About</string>
+    <string name="add_show">add</string>
+    <string name="hint_add">insert show to watch later</string>
+</resources>

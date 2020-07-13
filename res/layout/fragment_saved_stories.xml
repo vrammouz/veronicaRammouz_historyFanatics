@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavedStoriesFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        style="@style/LogoHeaderLayout"
+        android:layout_marginTop="16dp">
+        <ImageView
+            android:id="@+id/image_logo"
+            style="@style/LogoHeader"
+            android:layout_marginStart="16dp"/>
+        <TextView
+            style="@style/PageTitle"
+            android:text="@string/saved_stories"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/title_extension"
+        style="@style/LogoExtension"
+        android:layout_marginTop="64dp"
+        android:layout_marginStart="32dp"/>
+
+    <ListView
+        android:id="@+id/saved_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="72dp">
+    </ListView>
+
+</FrameLayout>

@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:id="@+id/logo"
+        style="@style/LogoHeaderLayout"
+        android:layout_marginTop="16dp">
+        <ImageView
+            android:id="@+id/image_logo"
+            style="@style/LogoHeader"
+            android:layout_marginStart="16dp"/>
+        <TextView
+            style="@style/PageTitle"
+            android:text="@string/about_title"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/title_extension"
+        style="@style/LogoExtension"
+        android:layout_marginTop="64dp"
+        android:layout_marginStart="32dp" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:text="@string/about"
+        android:layout_marginTop="80dp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/terms"
+        android:textStyle="bold"
+        android:layout_gravity="start|center_vertical" />
+</FrameLayout>
